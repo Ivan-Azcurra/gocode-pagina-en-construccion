@@ -44,3 +44,34 @@ footer {
 .fa-envelope:hover {
   color:#e10707;
 }
+#container{
+  transform:translate(-50%,-50%) ;
+}
+#imagenYTexto-container{
+  transform: translate(0.-50%);
+}
+/*----------------------------------media queries----------------------------------------*/
+
+@media(max-width:668px){
+  #mediaquery{
+    top: 40%;
+ }
+ a {
+  display: inline-flex;
+  width: 30%;
+  justify-content: space-evenly;
+ }
+
+}
+
+@media(min-width:669px) and (max-width:988px){
+ #mediaquery{
+    top: 20%;
+ }
+}
+  @media(min-width: 989px) and (max-width: 1200px){
+    #mediaquery{
+      top: 25%;
+      transform: translate(0,25%);
+   }
+  }
