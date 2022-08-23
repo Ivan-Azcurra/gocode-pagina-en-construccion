@@ -1,0 +1,46 @@
+nav,
+footer {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  height: 4rem;
+}
+
+nav {
+  top: 0;
+}
+
+footer {
+  bottom: 0;
+}
+
+.mt-35 {
+  margin-top: 35%;
+}
+
+.top-20 {
+  margin-top: 17.5%;
+}
+
+.stripe {
+  color: white;
+  background: repeating-linear-gradient(-45deg, #FFFF00, #FFFF00 10px, #000000 10px, #000000 20px);
+}
+
+.fa-instagram,
+.fa-list-ul,
+.fa-envelope {
+  color:#000000;
+}
+
+.fa-instagram:hover {
+  color:#3a2b52;
+}
+
+.fa-list-ul:hover {
+  color:#4c0328;
+}
+
+.fa-envelope:hover {
+  color:#e10707;
+}
