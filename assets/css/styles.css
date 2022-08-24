@@ -19,10 +19,11 @@ footer {
 }
 
 .top-20 {
-  margin-top: 17.5%;
+  margin-top: 40px;
 }
 
 .stripe {
+  width: 100%;
   color: white;
   background: repeating-linear-gradient(-45deg, #FFFF00, #FFFF00 10px, #000000 10px, #000000 20px);
 }
@@ -46,6 +47,7 @@ footer {
 }
 
 a {
+  margin-top: 5rem!important;
   text-decoration: none !important;
 }
 
@@ -70,10 +72,11 @@ a {
 
 @media (min-width: 576px) { 
   #mediaquery {
-    top: 27%;
+    top: 0;
   }
   
   a {
+    margin-top: 0;
     display: inline-flex;
     width: 30% !important;
     justify-content: space-evenly;
@@ -89,6 +92,7 @@ a {
   #mediaquery {
     top: 20%;
   }
+
 
   nav,
   footer {
