@@ -64,3 +64,44 @@ a {
 }
 
 /*--- Media Queries ---*/
+
+
+@media screen and (max-width: 736px) {
+  
+  .size{
+    max-width: 50vw;
+    max-height: 20vh;
+  }
+
+  .top-20 {
+    margin-top: 10px;
+  }
+
+  a{
+    margin-top: 1rem!important;
+  }
+
+  .fa-instagram,
+  .fa-list-ul,
+  .fa-envelope {
+    font-size: 2rem;
+  }
+
+  nav{
+    height: 2rem;
+  }
+
+  footer{
+    height: 2rem;
+  }
+}
+
+@media screen and (max-width: 667px) {
+  nav{
+    height: 2rem;
+  }
+
+  footer{
+    height: 2rem;
+  }
+}
