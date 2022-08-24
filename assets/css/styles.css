@@ -34,11 +34,11 @@ footer {
 }
 
 .fa-instagram:hover {
-  color:#3a2b52;
+  color:#f514d7;
 }
 
 .fa-list-ul:hover {
-  color:#4c0328;
+  color:#34021b;
 }
 
 .fa-envelope:hover {
@@ -51,6 +51,18 @@ a {
 
 /*--- Media Queries ---*/
 
+@media (max-width: 575px) { 
+  #mediaquery {
+    top: 30%;
+  }
+  
+  a {
+    display: inline-flex;
+    width: 30% !important;
+    justify-content: space-evenly;
+  }
+}
+
 @media (min-width: 576px) { 
   #mediaquery {
     top: 27%;
@@ -58,9 +70,8 @@ a {
   
   a {
     display: inline-flex;
-    width: 30%;
+    width: 30% !important;
     justify-content: space-evenly;
-    text-decoration: none;
   }
 }
 
