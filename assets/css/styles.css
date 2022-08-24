@@ -61,6 +61,11 @@ a {
     width: 30% !important;
     justify-content: space-evenly;
   }
+
+  nav,
+  footer {
+  height: 2rem;
+}
 }
 
 @media (min-width: 576px) { 
@@ -73,12 +78,22 @@ a {
     width: 30% !important;
     justify-content: space-evenly;
   }
+
+  nav,
+  footer {
+  height: 2.5rem;
+}
 }
 
 @media (min-width: 768px) { 
   #mediaquery {
     top: 20%;
   }
+
+  nav,
+  footer {
+  height: 3rem;
+}
 }
 
 @media (min-width: 992px) { 
