@@ -1,17 +1,23 @@
-nav,
-footer {
-  position: fixed;
-  width: 100%;
+nav {
+  position: relative;
   left: 0;
+  top: 0;
+  width: 100%;
   height: 4rem;
 }
 
-nav {
-  top: 0;
+.size{
+  display: block;
+  max-width: 665px;
+  max-height: 400px;
 }
 
 footer {
   bottom: 0;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 4rem;
 }
 
 .mt-35 {
@@ -46,69 +52,15 @@ footer {
   color:#e10707;
 }
 
+.links{
+  width: 100%;
+}
+
 a {
+  display: inline-block;
   margin-top: 5rem!important;
+  /* margin-right: 4rem; */
   text-decoration: none !important;
 }
 
 /*--- Media Queries ---*/
-
-@media (max-width: 575px) { 
-  #mediaquery {
-    top: 30%;
-  }
-  
-  a {
-    display: inline-flex;
-    width: 30% !important;
-    justify-content: space-evenly;
-  }
-
-  nav,
-  footer {
-  height: 2rem;
-}
-}
-
-@media (min-width: 576px) { 
-  #mediaquery {
-    top: 0;
-  }
-  
-  a {
-    margin-top: 0;
-    display: inline-flex;
-    width: 30% !important;
-    justify-content: space-evenly;
-  }
-
-  nav,
-  footer {
-  height: 2.5rem;
-}
-}
-
-@media (min-width: 768px) { 
-  #mediaquery {
-    top: 20%;
-  }
-
-
-  nav,
-  footer {
-  height: 3rem;
-}
-}
-
-@media (min-width: 992px) { 
-  #mediaquery {
-    transform: translate(0.25%);
-    top: 20%;
-  }
-}
-
-@media (min-width: 1200px) { 
-  #mediaquery {
-    top: 0%;
-  }
-}
